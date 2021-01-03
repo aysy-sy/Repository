@@ -1,0 +1,75 @@
+/*.tn-form-label {
+    background: url(../images/it-line03.png);
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 0 0 5px;
+    text-align: center;
+    width: 80px;
+}*/
+
+.middle{
+    margin-left: 350px;
+    margin-top: 150px;
+    /* height: 300px;*/
+}
+.span1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 25px;
+    color:white;
+}
+.span1 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span2{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 25px;
+    color:white;
+}
+.span2 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span3{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+    font-size: 25px;
+    color:white;
+}
+.span3 :nth-child(2){
+    margin-top: 0px;
+    margin-left:6px;
+}
+
+.choose{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 25px;
+    color:white;
+}
+.choose :nth-child(2){
+    /*position: absolute;*/
+    margin-top: 0px;
+    margin-left: 120px;
+}
+.tn-button-text{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.span4{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+    font-size: 25px;
+    color:white;
+}

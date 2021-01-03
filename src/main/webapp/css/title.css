@@ -1,0 +1,71 @@
+.bodyback{
+    background: url('../images/02(7).gif')no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    /*  position: fixed;*/
+    margin: 0px;
+    padding: 0px;
+}
+.headerback{
+    width: 1600px;
+    height: 50px;
+    background-color: darkseagreen;/*背景框内颜色*/
+    top: 0px;
+    /*text-align: center;*/
+    /*居中*/
+    line-height: 35px;
+}
+.headerback>div{
+    background: url("../images/user_btn1.png") no-repeat;
+    /* display: inline-block;*/
+    text-align: center;
+    width: 90px;
+}
+.headerback p {
+    margin-left: 600px;
+    color: darkred;
+    font-size: 30px;
+}
+.header_buttom{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 50px;
+    color:white;
+}
+.home_page{
+    margin-left:20px;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+}
+.home_register{
+    margin-left: 900px;
+    position: absolute;
+    top:5px;
+    font-size: 20px;
+}
+.home_login{
+    margin-left: 1030px;
+    position: absolute;
+    top:5px;
+    font-size: 20px;
+}
+.header_buttom{
+
+    top:100px;
+}
+
+.home_shopcar{
+    margin-left: 1160px;
+    position: absolute;
+    top:5px;
+    font-size: 20px;
+}
+.home_Favorites{
+    margin-left: 1290px;
+    position: absolute;
+    top:5px;
+    font-size: 20px;
+}

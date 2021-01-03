@@ -1,0 +1,11 @@
+com\jsu\order\bean\Product.class
+com\jsu\order\Dao\ProductDao.class
+com\jsu\order\utils\DBUtils.class
+com\jsu\order\bean\Applicant.class
+com\jsu\order\servlet\ApplicantLoginServlet.class
+com\jsu\order\servlet\PersonalServlet.class
+com\jsu\order\Dao\ApplicantDao.class
+com\jsu\order\servlet\ApplicantRegisterServlet.class
+com\jsu\order\servlet\ProductServlet.class
+com\jsu\order\utils\JudgeCode.class
+com\jsu\order\test\Test.class

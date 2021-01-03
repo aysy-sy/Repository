@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>测试ajax</title>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });
+        function method() {
+            var val = $("#userId").val();
+            $.ajax({
+                type:"GET",
+                url:"getUser",
+                // data:{"id":val},     // data参数是可选的，有多种写法，也可以直接在url参数拼接参数上去，例如这样：url:"getUser?id="+val,
+                data:"id="+val,
+                async:true,   // 异步，默认开启，也就是$.ajax后面的代码是不是跟$.ajx里面的代码一起执行
+                cache:true,  // 表示浏览器是否缓存被请求页面,默认是 true
+                dataType:"json",   // 返回浏览器的数据类型，指定是json格式，前端这里才可以解析json数据
+                success:function(data){
+                    $("#name").text(data.name);
+                    $("#age").text(data.age);
+                },
+                error:function(){
+                    console.log("发生错误")
+                    alert("发生错误");
+                },
+                complete:function(){
+                    console.log("ajax请求完事，最终操作在这里完成")
+                }
+            });
+            // alert("测试异步")
+        }
+    </script>
+
+</head>
+<body>
+
+<input type="text" id="userId"/>
+<button onclick="method();">获取</button>
+<div>名字：<span id="name"></span></div>
+<div>年龄<span id="age"></span></div>
+</body>
+</html>

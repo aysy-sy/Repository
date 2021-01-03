@@ -1,0 +1,57 @@
+
+.span1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.span1 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span2{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.span2 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span3{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.span3 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span4{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.span4 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span5{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.span5 :nth-child(2){
+    margin-top: 0px;
+    margin-left:30px;
+}
+.span6{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 150px;
+    font-size: 25px;
+}
